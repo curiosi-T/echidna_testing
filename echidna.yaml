@@ -1,0 +1,10 @@
+deployer: "0x10000"
+sender: ["0x20000", "0x30000"]
+testLimit: 50000
+seqLen: 100
+#testMode: assertion
+#balanceAddr: 0xffffffff
+#cryticArgs: ["--solc-remaps", "@openzeppelin=node_modules/@openzeppelin @chainlink=node_modules/@chainlink", "--solc-args", "optimize optimize-runs=800 metadata-hash=none"]
+#codeSize max code size for deployed contratcs (default 24576, per EIP-170)
+#codeSize: 0x6000
+#corpusDir: 'corpus'
